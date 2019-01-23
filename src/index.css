@@ -6,10 +6,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #eaf5fc;
+  background-color: #fbd4f7;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.btn-info{
+  background-color: #8b5596!important;
+  border-color: #623f69!important;
+}
+.btn-info:hover{
+  background-color: #aa72b5;
+  border-color: #8b5596;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+button, a, input{
+  outline: none!important;
+  
+}
+
