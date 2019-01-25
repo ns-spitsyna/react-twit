@@ -1,10 +1,16 @@
 import React from 'react';
 import { Button, Input } from 'reactstrap';
-import './post-add-form.css';
+
+import styled from 'styled-components';
+
+const BottomPanel = styled.div`
+    display: flex;
+    margin-top: 20px;
+`
 
 const PostAddForm = ({onAdd}) =>{
     return(
-        <div className="bottom-panel d-flex">
+        <BottomPanel>
             <Input
                 type="text"
                 placeholder="О чем вы думаете сейчас?"
@@ -20,7 +26,7 @@ const PostAddForm = ({onAdd}) =>{
                     Добавить
                 </Button>
 
-        </div>
+        </BottomPanel>
     )
 }
 
